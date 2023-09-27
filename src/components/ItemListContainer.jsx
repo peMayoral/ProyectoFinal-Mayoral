@@ -4,6 +4,12 @@ import { useParams } from "react-router-dom";
 import mockAPI from "../mockAPI";
 import Item from "./Item";  
 
+const titulos = {
+    "comidaPreparada": "Comidas Preparadas",
+    "comidaCongelada": "Comidas Congeladas",
+    "bebidas": "Bebidas",
+    "ofertas": "Ofertas"
+}
 
 function ItemList({ categoria }) {
 
@@ -42,13 +48,6 @@ function ItemList({ categoria }) {
     )
 }
 
-
-const titulos = {
-    "comidaPreparada": "Comidas Preparadas",
-    "comidaCongelada": "Comidas Congeladas",
-    "bebidas": "Bebidas",
-    "ofertas": "Ofertas"
-}
 
 export default function ItemListContainer({greeting}){
 
