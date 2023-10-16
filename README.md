@@ -25,7 +25,7 @@ Esto me parecio poco eficiente ya que habia que volver a cargar los mismos datos
 En **main** implemente la carga de la lista de productos en un contexto, por lo que despues de la carga inicial de la pagina la lista de productos se encuentra "cacheada" por lo que dure la sesion. El detalle de los items surge de buscar el item en esta misma lista, por lo que no se usan querys de firebase.
 
 En **fullFirebase** se encuentra implementado lo pedido, se llama a firebase en cada carga, y se usan querys para los items y las categorias
-
+ 
 ### Detalle de los archivos
 
 - NavBar (Barra de navehacion) - Ruteado siempre
