@@ -1,4 +1,4 @@
-# Proyecto Final de Pedro Mayoral - MAIN
+# Proyecto Final de Pedro Mayoral - fullFirebase
 ### Curso de React comision 47180
 
 ## Desquiciados x el Picor
@@ -8,14 +8,23 @@ https://www.locosxelpicante.com/
 
 ### LEER
 
-El presente proyecto tiene dos variaciones, distribuidas en dos ramas distintas de Git. 
+El presente proyecto tiene dos variaciones, distribuidas en dos ramas distintas de Git: 
+
+- [La rama main en Github](https://github.com/Pedro-Mayo/ProyectoFinal-Mayoral/tree/main)
+- [El deploy en Vercel de main](https://proyecto-final-mayoral.vercel.app/)
+
+-------------------------------------
+
+- [La rama fullFirebase en Github](https://github.com/Pedro-Mayo/ProyectoFinal-Mayoral/tree/fullFirebase)
+- [El deploy en Vercel de fullFirebase](https://fullfirebase-proyectofinal-mayoral.vercel.app/)
+
 
 El proyecto pedia que en cada carga se acceda a la lista de items de Firebase, y que al acceder al detalle de algun item o a alguna categoria se haga un query respectivo.
 Esto me parecio poco eficiente ya que habia que volver a cargar los mismos datos en cada cambio de pantalla y generar una query de datos que ya se poseen, por lo que de ahi surge esta separacion de ramas.
 
-En main implemente la carga de la lista de productos en un contexto, por lo que despues de la carga inicial de la pagina la lista de productos se encuentra "cacheada" por lo que dure la sesion. El detalle de los items surge de buscar el item en esta misma lista, por lo que no se usan querys de firebase.
+En **main** implemente la carga de la lista de productos en un contexto, por lo que despues de la carga inicial de la pagina la lista de productos se encuentra "cacheada" por lo que dure la sesion. El detalle de los items surge de buscar el item en esta misma lista, por lo que no se usan querys de firebase.
 
-En RAMARAMA!!! se encuentra implementado lo pedido, se llama a firebase en cada carga, y se usan querys para los items y las categorias
+En **fullFirebase** se encuentra implementado lo pedido, se llama a firebase en cada carga, y se usan querys para los items y las categorias
 
 ### Detalle de los archivos
 
