@@ -1,0 +1,14 @@
+.carritoVacio, .displayFirebase{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    display: grid;
+    min-height: 80vh;
+    justify-content: center;
+    align-content: center;
+    background-color: gainsboro;
+}
+
+#cartList{
+    padding: min(10vw, 500px);
+}

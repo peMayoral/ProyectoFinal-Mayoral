@@ -1,0 +1,8 @@
+#listCategory{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem 5rem;
+    border-bottom: 0.125rem solid black;
+}

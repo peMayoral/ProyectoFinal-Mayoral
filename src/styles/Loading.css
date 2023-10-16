@@ -1,0 +1,67 @@
+#loadScreen{
+    background-color: gainsboro;
+    min-height: calc(100vh - 165px);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#loadText{
+    font-size: 2rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+}
+
+#loadText span{
+    position: relative;
+    top: 1rem;
+  display: inline-block;
+  animation: bounce 0.5s ease infinite alternate;
+}
+
+@keyframes bounce{
+    100%{
+      top: -1rem;}
+  }
+
+  #loadText span:nth-child(2){
+    animation-delay:0.1s;
+  }
+  #loadText span:nth-child(3){
+    animation-delay:0.2s;
+  }
+  #loadText span:nth-child(4){
+    animation-delay:0.3s;
+  }
+  #loadText span:nth-child(5){
+    animation-delay:0.4s;
+  }
+  #loadText span:nth-child(6){
+    animation-delay:0.5s;
+  }
+  #loadText span:nth-child(7){
+    animation-delay:0.6s;
+  }
+
+  #loadText span:nth-child(8){
+    animation-delay:0.7s;
+  }
+  #loadText span:nth-child(9){
+    animation-delay:0.8s;
+  }
+  #loadText span:nth-child(10){
+    animation-delay:0.9s;
+  }
+  #loadText span:nth-child(11){
+    animation-delay:1s;
+  }
+
+
+  @media(min-width: 900px){
+    #loadScreen{
+        min-height: calc(100vh - 150px);
+    }
+
+  }

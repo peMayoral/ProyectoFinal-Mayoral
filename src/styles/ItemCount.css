@@ -1,0 +1,26 @@
+#itemCount{
+    margin: 1rem;
+    display: inline-grid;
+    grid-template-columns: 25px 30px 25px;
+    border: 0.0625rem solid gray;
+    border-radius: 0.5rem;
+}
+
+#itemCount button{
+    border: none;
+}
+
+#itemCount button:nth-child(1){
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+#itemCount p{
+    text-align: center;
+    border-inline: 0.0625rem solid gray;
+}
+
+#itemCount button:nth-child(3){
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}

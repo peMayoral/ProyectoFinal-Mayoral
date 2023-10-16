@@ -1,0 +1,28 @@
+.cartItem{
+    background-color: white;
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    border: 0.25rem solid gray;
+}
+
+.cartItem img{
+    max-width: 150px;
+}
+
+.discountTagCart {
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 0, 0);
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    padding: 0.25rem 0.5rem;
+}
+
+.cartTitle{
+    font-weight: 600;
+    text-decoration: underline;
+}

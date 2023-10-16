@@ -1,0 +1,31 @@
+.cartWidget{
+    position: relative;
+    padding: 0.25rem;
+    height: 3.5rem;
+}
+
+.cartWidget img{
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    background-color: white;
+}
+
+.cartCounter{
+    font-family: 'Courier New', Courier, monospace;
+    
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+
+    display: inline-grid;
+    justify-content: center;
+    align-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(226, 19, 19);
+}

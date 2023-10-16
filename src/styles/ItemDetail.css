@@ -1,0 +1,51 @@
+.itemDetail{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.discountTagItem{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    border-bottom-right-radius: 2rem;
+    background-color: rgb(255, 0, 0);
+}
+
+
+.productDetails>h1{
+    text-decoration: underline;
+}
+
+.productDetails>.price{
+    font-size: 2rem;
+}
+
+.itemDetail>img{
+    max-width: min(500px, 60vw);
+    padding: 2rem;
+}
+@media(min-width:600px){
+    .itemDetail{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .itemDetail>img{
+        justify-self: center;
+        align-self: center;
+        max-width: 500px;
+    }
+}
+
+.inexistente{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem;
+}

@@ -1,0 +1,30 @@
+
+#checkout{
+    background-color: gainsboro;
+    min-height: 90vh;
+}
+
+#checkout>h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#formularioCompra{
+    padding: 1rem;
+    display: grid;
+    gap: 0.5rem
+    ;
+    grid-template-columns: 1fr 1fr;
+}
+
+#formularioCompra>label{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#submitButton{
+    padding: 0.5rem;
+    grid-column: 1/3;
+    justify-self: center;
+}
