@@ -15,7 +15,7 @@ const firebaseConfig = {
 
   projectId: "desquiciadosxelpicor",
 
-  storageBucket: "desquiciadosxelpicor.appspot.com",
+  storageBucket: "desquiciadosxelpicor.firebasestorage.app",
 
   messagingSenderId: "592857977446",
 
